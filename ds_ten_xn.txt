@@ -1,0 +1,1762 @@
+
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Glucose
+Na +
+K +
+Cl-
+%Retic
+#Retic
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Ure
+Creatinin
+SGOT/AST
+SGPT/ALT
+Ferritin
+Định lương Sắt huyết thanh
+Glucose
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+%Retic
+#Retic
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+HBsAg
+Anti HCV
+Anti -HIV ( Elisa )
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Calci ion hoá
+Calci toàn phần
+Phospho
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Ure
+Creatinin
+SGOT/AST
+SGPT/ALT
+Ferritin
+Định lương Sắt huyết thanh
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+TSH 3-UL
+Troponin I- Hs
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Calci ion hoá
+Calci toàn phần
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+HBsAg
+Anti HCV
+Anti -HIV ( Elisa )
+Glucose
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Cholesterol  toàn phần
+HDL-cholesterol
+Triglyceride
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Glucose
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Glucose
+Ure
+Creatinin
+Ferritin
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Nhóm máu :
+Nhóm máu :
+ABO
+Rh
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+HbA1C
+SGPT/ALT
+SGOT/AST
+Gama GT
+Glucose
+Hồng cầu, bạch cầu trong phân soi tươi
+Đại thể
+Hồng cầu
+Bạch cầu
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Kháng thể kháng nhân (anti-ANA) bằng kỹ thuật ELISA
+Kháng thể kháng nhân ANA test
+Kháng thể kháng dsDNA (anti-dsDNA) bằng kỹ thuật ELISA
+Anti-dsDNA
+Complement 3 (C3 )
+Complement 4 ( C4)
+Hồng cầu, bạch cầu trong phân soi tươi
+Hồng cầu
+Bạch cầu
+Phân tích tế bào máu ngoại vi (bằng phương pháp thủ công)
+Số lượng
+Tính chất
+Số lượng
+Màu sắc
+Kích thước
+Hình dạng
+Tính chất
+Tính chất
+Số lượng
+%Retic
+#Retic
+Định lượng Haptoglobin
+Định lượng Haptoglobin
+Bilirubin toàn phần
+Bilirubin trực tiếp
+LDH
+Nhóm máu :
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Phospho
+Calci ion hoá
+Calci toàn phần
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Nhóm máu :
+Hồng cầu trong phân test nhanh
+Máu ẩn trong phân
+Hồng cầu, bạch cầu trong phân soi tươi
+Đại thể
+Hồng cầu
+Bạch cầu
+Troponin I- Hs
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Troponin I- Hs
+Troponin I- Hs
+Nhóm máu :
+Creatinin
+Ure
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+SGPT/ALT
+SGOT/AST
+Na +
+K +
+Cl-
+SGOT/AST
+SGPT/ALT
+APTT
+Ratio
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+SGOT/AST
+SGPT/ALT
+APTT
+Ratio
+Nhóm máu :
+APTT
+Ratio
+TQ
+INR
+PT
+APTT
+Ratio
+Định lượng D- Dimer
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Ure
+Creatinin
+SGPT/ALT
+SGOT/AST
+Na +
+K +
+Cl-
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Ure
+Creatinin
+Na +
+K +
+Cl-
+APTT
+Ratio
+APTT
+Ratio
+Na +
+K +
+Cl-
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+APTT
+Ratio
+Na +
+K +
+Cl-
+APTT
+Ratio
+Ferritin
+Định lương Sắt huyết thanh
+APTT
+Ratio
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+Nhóm máu :
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+APTT
+Ratio
+TQ
+INR
+PT
+SGOT/AST
+SGPT/ALT
+Na +
+K +
+Cl-
+Creatinin
+Troponin I- Hs
+Na +
+K +
+Cl-
+Ure
+Creatinin
+Na +
+K +
+Cl-
+TQ
+INR
+PT
+APTT
+Ratio
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Glucose
+Hồng cầu trong phân test nhanh
+Máu ẩn trong phân
+Calci ion hoá
+Calci toàn phần
+Na +
+K +
+Cl-
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Nhóm máu :
+Creatinin
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Troponin I- Hs
+Creatinin
+TQ
+INR
+PT
+APTT
+Ratio
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+LDL - cholesterol
+HDL-cholesterol
+Triglyceride
+Cholesterol  toàn phần
+Anti -HIV ( Elisa )
+HBsAg
+Anti HCV
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Creatinin
+Ure
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Glucose
+SGPT/ALT
+SGOT/AST
+Troponin I- Hs
+Nhóm máu :
+ABO
+Rh
+NT-Pro BNP
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Creatinin
+Ure
+Albumin
+Glucose
+Troponin I- Hs
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Ure
+Creatinin
+APTT
+Ratio
+TQ
+INR
+PT
+HBsAg
+Anti HCV
+Anti -HIV ( Elisa )
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Ure
+Creatinin
+Na +
+K +
+Cl-
+Ure
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Na +
+K +
+Cl-
+Creatinin
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Ure
+Creatinin
+Na +
+K +
+Cl-
+SGPT/ALT
+SGOT/AST
+Glucose
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Glucose
+Bilirubin
+Ketone
+Spe-Gravity
+Blood
+pH
+Protein
+Urobilinogen
+Nitrite
+Leucocyte
+Ure
+Creatinin
+SGPT/ALT
+SGOT/AST
+Na +
+K +
+Cl-
+HBsAb định lượng
+Anti-HBs
+Calci ion hoá
+Calci toàn phần
+Xét nghiệm nhanh kháng nguyên vi rút Sar-CoV-2 trong dịch phết mũi họng
+Ure
+Creatinin
+Na +
+K +
+Cl-
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+ABO
+Rh
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Glucose
+Creatinin
+SGPT/ALT
+SGOT/AST
+HBsAg
+Anti HCV
+Na +
+K +
+Cl-
+Ure
+TQ
+INR
+PT
+APTT
+Ratio
+ABO
+Rh
+Troponin I- Hs
+Độ lọc cầu thận GFR
+Độ lọc cầu thận GFR
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Ure
+Creatinin
+Glucose
+HbA1C
+SGPT/ALT
+SGOT/AST
+Gama GT
+Na +
+K +
+Cl-
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Ure
+Creatinin
+SGPT/ALT
+SGOT/AST
+Gama GT
+Na +
+K +
+Cl-
+Ure
+Creatinin
+Na +
+K +
+Cl-
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Định lượng CRP
+CRP
+Glucose
+Bilirubin
+Ketone
+Spe-Gravity
+Blood
+pH
+Protein
+Urobilinogen
+Nitrite
+Leucocyte
+Xét nghiệm nhanh kháng nguyên vi rút Sar-CoV-2 trong dịch phết mũi họng
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Ure
+Creatinin
+Na +
+K +
+Cl-
+Real-time RT PCR SARS-CoV2 (Mẫu đơn) [Bao gồm : Chi phí sàng lọc , lấy bảo quản mẫu và chống nhiễm khuẩn]
+Realtime RT-PCR SARS-COV-2
+Real-time RT PCR SARS-CoV2 (Mẫu đơn) [Bao gồm : Chi phí sàng lọc , lấy bảo quản mẫu và chống nhiễm khuẩn]
+Realtime RT-PCR SARS-COV-2
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+# Lym
+# Mono
+# Eos
+# Baso
+RBC
+Hb
+Hct
+MCV
+MCH
+MCHC
+RDW
+PLT
+MPV
+PCT
+PDW
+Glucose
+Creatinin
+SGPT/ALT
+SGOT/AST
+Cholesterol  toàn phần
+Triglyceride
+HDL-cholesterol
+LDL - cholesterol
+Glucose
+Bilirubin
+Ketone
+Spe-Gravity
+Blood
+pH
+Protein
+Urobilinogen
+Nitrite
+Leucocyte
+HBsAg
+Anti HCV
+HbA1C
+Ure
+Gama GT
+Na +
+K +
+Cl-
+HBsAg
+Anti HCV
+Anti -HIV ( Elisa )
+Calci ion hoá
+Calci toàn phần
+Phospho
+TSH 3-UL
+Troponin I- Hs
+Calci ion hoá
+Calci toàn phần
+HBsAg
+Anti HCV
+Anti -HIV ( Elisa )
+Cholesterol  toàn phần
+HDL-cholesterol
+Triglyceride
+ABO
+Rh
+HbA1C
+Gama GT
+Hồng cầu, bạch cầu trong phân soi tươi
+Đại thể
+Hồng cầu
+Bạch cầu
+Kháng thể kháng nhân (anti-ANA) bằng kỹ thuật ELISA
+Kháng thể kháng nhân ANA test
+Kháng thể kháng dsDNA (anti-dsDNA) bằng kỹ thuật ELISA
+Anti-dsDNA
+Complement 3 (C3 )
+Complement 4 ( C4)
+Hồng cầu, bạch cầu trong phân soi tươi
+Hồng cầu
+Bạch cầu
+Phân tích tế bào máu ngoại vi (bằng phương pháp thủ công)
+Số lượng
+Tính chất
+Số lượng
+Màu sắc
+Kích thước
+Hình dạng
+Tính chất
+Tính chất
+Số lượng
+Định lượng Haptoglobin
+Định lượng Haptoglobin
+Bilirubin toàn phần
+Bilirubin trực tiếp
+LDH
+Phospho
+Calci ion hoá
+Calci toàn phần
+Hồng cầu trong phân test nhanh
+Máu ẩn trong phân
+Hồng cầu, bạch cầu trong phân soi tươi
+Đại thể
+Hồng cầu
+Bạch cầu
+Troponin I- Hs
+Troponin I- Hs
+Troponin I- Hs
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+TQ
+INR
+PT
+APTT
+Ratio
+Định lượng D- Dimer
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+APTT
+Ratio
+TQ
+INR
+PT
+Troponin I- Hs
+TQ
+INR
+PT
+APTT
+Ratio
+Hồng cầu trong phân test nhanh
+Máu ẩn trong phân
+Calci ion hoá
+Calci toàn phần
+Troponin I- Hs
+TQ
+INR
+PT
+APTT
+Ratio
+LDL - cholesterol
+HDL-cholesterol
+Triglyceride
+Cholesterol  toàn phần
+Anti -HIV ( Elisa )
+HBsAg
+Anti HCV
+Troponin I- Hs
+ABO
+Rh
+NT-Pro BNP
+Albumin
+Troponin I- Hs
+APTT
+Ratio
+TQ
+INR
+PT
+HBsAg
+Anti HCV
+Anti -HIV ( Elisa )
+Bilirubin
+Ketone
+Spe-Gravity
+Blood
+pH
+Protein
+Urobilinogen
+Nitrite
+Leucocyte
+HBsAb định lượng
+Anti-HBs
+Calci ion hoá
+Calci toàn phần
+Xét nghiệm nhanh kháng nguyên vi rút Sar-CoV-2 trong dịch phết mũi họng
+ABO
+Rh
+HBsAg
+Anti HCV
+TQ
+INR
+PT
+APTT
+Ratio
+ABO
+Rh
+Troponin I- Hs
+Độ lọc cầu thận GFR
+Độ lọc cầu thận GFR
+HbA1C
+Gama GT
+Gama GT
+Định lượng CRP
+CRP
+Bilirubin
+Ketone
+Spe-Gravity
+Blood
+pH
+Protein
+Urobilinogen
+Nitrite
+Leucocyte
+Realtime RT-PCR SARS-COV-2
+Realtime RT-PCR SARS-COV-2
+Cholesterol  toàn phần
+Triglyceride
+HDL-cholesterol
+LDL - cholesterol
+Bilirubin
+Ketone
+Spe-Gravity
+Blood
+pH
+Protein
+Urobilinogen
+Nitrite
+Leucocyte
+HBsAg
+Anti HCV
+HbA1C
+Gama GT
+PTH ( Parathyroid Hormon )
