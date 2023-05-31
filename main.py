@@ -1,6 +1,8 @@
 import sys
 import requests
 import csv
+import asyncio
+import aiohttp
 from matplotlib import pyplot
 from pathlib import Path
 from ui_main import Ui_MainWindow
@@ -19,7 +21,7 @@ lst_ten_xet_nghiem = []
 
 with open(data_dir/'ds_ten_xn.txt','r',encoding='utf-8') as file:
     try:
-        for i in range(2000):
+        for i in range(3000):
             ten = file.readline().replace('\n','')
             if ten not in lst_ten_xet_nghiem:
                 lst_ten_xet_nghiem.append(ten)
@@ -137,6 +139,8 @@ class MainWindow(QMainWindow):
 
     # Hàm click vào button search để tìm bệnh nhân
     def Button_search(self):
+        asyncio.run(self.main())
+    async def main(self):
         with open(data_dir/'data_xet_nghiem.csv','w') as file:
             file.write('')
         token = self.token_add()
@@ -182,37 +186,48 @@ class MainWindow(QMainWindow):
 
         # Lấy danh sách tên các xét nghiệm
         data_phieu_y_lenh = self.history_xet_nghiem(token,benh_nhan_id)
-        lst_phieu_y_lenh = []
-        self.data = []
-        try:
-            for i in range(150):
-                phieu_y_lenh = data_phieu_y_lenh[i]['phieu_y_lenh_id']
-                thoi_gian_chi_dinh = data_phieu_y_lenh[i]['thoi_gian_chi_dinh']
-                if phieu_y_lenh not in lst_phieu_y_lenh:
-                    data_xn = self.list_xet_nghiem(token,phieu_y_lenh)
-                    for i in range(len(data_xn)):
+        ##################################################################################
+        urls = []
+        for i in range(len(data_phieu_y_lenh)):
+            phieu_y_lenh = data_phieu_y_lenh[i]['phieu_y_lenh_id']
+            url = 'http://192.168.15.60/api/v1/phongkham/getDetailPhieuYLenh/{}/2'.format(phieu_y_lenh)
+            urls.append(url)
+        headers = {
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': 'vi,fr-FR;q=0.9,fr;q=0.8,en-US;q=0.7,en;q=0.6',
+            'Authorization':'Bearer {}'.format(token),
+            'Connection': 'keep-alive',
+            'Origin': 'http://192.168.15.50',
+            'Referer': 'http://192.168.15.50/',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36',
+            'X-RED-HID': '2',
+        }
+
+        # connector = aiohttp.TCPConnector(ssl=False)  # Tắt xác minh chứng chỉ SSL
+        async with aiohttp.ClientSession(headers=headers) as session:
+            tasks = []
+            for url in urls:
+                task = asyncio.create_task(self.fetch_data(session, url))
+                tasks.append(task)
+            results = await asyncio.gather(*tasks)
+            for data_xn in results:
+                thoi_gian_chi_dinh = data_xn[0]['thoi_gian_chi_dinh']
+                for i in range(len(data_xn)):
+                    code = True
+                    ten = data_xn[i]['ten']
+                    ket_qua = data_xn[i]['ket_qua']
+                    for char in 'ket_qua':
                         code = True
-                        ten = data_xn[i]['ten']
-                        # if ten not in lst_ten_xet_nghiem:
-                        #     with open(data_dir/'ds_ten_xn.txt','a',encoding='utf-8') as file:
-                        #         file.write(ten)
-                        #         file.write('\n')
-                        #         file.close()
-                        ket_qua = data_xn[i]['ket_qua']
-                        for char in 'ket_qua':
-                            code = True
-                            if char not in ket_qua:
-                                data_xet_nghiem = [ten,ket_qua,thoi_gian_chi_dinh]
-                                # self.data.append(data_xet_nghiem)
-                                with open(data_dir/'data_xet_nghiem.csv','a',encoding='utf-8',newline='') as file:
-                                    writer = csv.writer(file)
-                                    writer.writerow(data_xet_nghiem)
-                                code = False
-                                if code == False:
-                                    break
-                    lst_phieu_y_lenh.append(phieu_y_lenh)
-        except:
-            pass
+                        if char not in ket_qua:
+                            data_xet_nghiem = [ten,ket_qua,thoi_gian_chi_dinh]
+                            # self.data.append(data_xet_nghiem)
+                            with open(data_dir/'data_xet_nghiem.csv','a',encoding='utf-8',newline='') as file:
+                                writer = csv.writer(file)
+                                writer.writerow(data_xet_nghiem)
+                            code = False
+                            if code == False:
+                                break
+
         data_ten = []
         self.lst_xn_all = []
 
@@ -245,9 +260,14 @@ class MainWindow(QMainWindow):
             self.lst_xn_all.append(lst_xn)
 
 
+        ##################################################################################
+
+
 
     # Hàm click vào button search xét nghiệm
     def Button_search2(self):
+
+
 
         for i in range(len(self.lst_xn_all)):
             if self.lst_xn_all[i][0] == self.ui.lineEdit_search_2.text(): 
@@ -269,7 +289,15 @@ class MainWindow(QMainWindow):
                     pyplot.annotate(f'({thoi_gian_reversed[i]}, {ket_qua_reversed[i]})', (thoi_gian_reversed[i], ket_qua_reversed[i]), textcoords="offset points", xytext=(0,10),ha = 'center')
                 pyplot.tight_layout()
                 pyplot.show()
-                
+
+    # Hàm async http
+    async def fetch_data(self,session,url):
+        async with session.get(url) as response:
+            status_code = response.status
+            data = await response.json()
+            return data
+
+
     # METHOD CẬP NHẬT TEXT TRONG Ô TÌM KIẾM TÊN BỆNH NHÂN
     def on_text_changed(self):
         self.proxy_model.setFilterRegularExpression(QRegularExpression('.*')) 
@@ -278,4 +306,4 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = MainWindow()
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

@@ -1760,3 +1760,629 @@ Anti HCV
 HbA1C
 Gama GT
 PTH ( Parathyroid Hormon )
+Định lượng Methanol máu
+Xét nghiệm tìm Đồng trong NT (Cu/NT)
+Chì/máu [Pb /Blood]
+Xét nghiệm tìm độc chất trong máu/NT
+Acetylcholine receptor Ab (AChR)
+XÉT NGHIỆM PHÂN TÍCH GEN
+Tầm Soát 17 gen cho 10 bệnh ung thư di truyền [OncoSure]
+XÉT NGHIỆM PHÂN TÍCH GEN
+Tầm Soát 132 gen cho 19 bệnh ung thư di truyền [OncoSure Plus]
+XÉT NGHIỆM PHÂN TÍCH GEN
+Phát hiện tam bội NST 21, 18, 13 lệch bội NST giới tính [TriSure]
+XÉT NGHIỆM PHÂN TÍCH GEN
+Phát hiện tam bội NST 21, 18, 13 và monosomy X [NIPT9.5]
+Thời gian Prothrombin (PT,TQ) bằng máy tự động
+TQ
+INR
+PT
+Thời gian TCK- thromboplastin hoạt hoá từng phần (APTT)
+APTT
+Ratio
+Định lượng Fibrinogen bằng pp trực tiếp
+TS ( Thời gian máu chảy )
+TC ( thời gian máu đông )
+Định lượng Protein C
+Định lượng Protein S
+Định lượng D- Dimer
+Định lượng AT/AT III (Anti thrombin/ Anti thrombinIII)
+Yếu tố VII
+Yếu tố  V
+Định lượng yếu tố đông máu nội sinh VIIIc
+Yếu Tố IX
+Yếu Tố XI
+Beta2 microglobulin máu
+Erythropoietin
+Định lượng Haptoglobin
+
+Định lượng men G6PD
+Tổng phân tích tế bào máu bằng máy đếm laser
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+
+# Lym
+
+# Mono
+
+# Eos
+
+# Baso
+
+RBC
+
+Hb
+
+Hct
+
+MCV
+
+MCH
+
+MCHC
+
+RDW
+
+PLT
+
+MPV
+
+PCT
+PDW
+Tổng phân tích tế bào máu bằng máy đếm laser
+WBC
+%Neu
+%Lym
+%Mono
+%Eos
+%Baso
+# Neu
+
+# Lym
+
+# Mono
+
+# Eos
+
+# Baso
+
+RBC
+
+Hb
+
+Hct
+
+MCV
+
+MCH
+
+MCHC
+
+RDW
+
+PLT
+
+MPV
+
+PCT
+PDW
+Hồng cầu lưới (bằng  máy đếm laser)
+%Retic
+#Retic
+Tìm Ký sinh trùng sốt rét trong máu bằng pp thủ công
+Máu lắng VS (bằng pp tự động )
+Giờ 1
+Giờ 2
+Tìm ấu trùng giun chỉ trong máu
+Phết máu ngoại biên
+Bạch cầu
+Số lượng
+Tính chất
+Hồng cầu
+Số lượng
+Màu sắc
+Kích thước
+Hình dạng
+Tính chất
+Tiểu cầu
+Tính chất
+Số lượng
+LE CELLLS
+Xét nghiệm tế bào cặn lắng nước tiểu (bằng phương pháp thủ công)
+Red Blood Cells
+Leucocytes
+Calcium oxalate monohydrate
+Calcium oxalate dihydrate
+Amor Phosphate
+Uric Acid
+Casts
+Epithelial Cells
+Bacteria
+Đại thể ( dịch )
+Hồng cầu :
+Bạch cầu :
+Kết quả khảo sát tủy đồ
+Hình thái tủy:
+Dòng Hồng cầu:
+Dòng Bạch cầu:
+Dòng Tiểu cầu:
+Kết luận tủy đồ:
+Cặn Addis
+Hồng cầu
+Trụ
+Bạch cầu + tế bào biểu mô
+Hồng cầu lưới (bằng  máy đếm laser)
+%Retic
+#Retic
+Định nhóm máu ABO bằng pp Gelcard
+ABO
+Rh
+Phản ứng hòa hợp Crossmatch bằng gelcard
+Chế phẩm máu số 1:
+Nhóm máu :
+Thể tích ( ml) :
+Nhóm chính [Giai đoạn nước muối] (PC S)
+Nhóm chính [Giai đoạn AHG] (PC C)
+Kết luận
+Chế phẩm máu số 2:
+Nhóm máu :
+Thể tích (ml ) :
+Nhóm chính [Giai đoạn nước muối] (PC S)
+Nhóm chính [Giai đoạn AHG] (PC C)
+Kết luận
+Định nhóm máu hệ ABO trên thẻ định nhóm máu (đã có sẵn huyết thanh mẫu) để truyền chế phẩm tiểu cầu hoặc huyết tương.
+Chế phẩm máu số 1:
+Nhóm máu :
+Nhóm phụ [Giai đoạn nước muối] (PCmS)
+Kết luận
+Chế phẩm máu số 2:
+Nhóm máu :
+Nhóm phụ [Giai đoạn nước muối] (PCmS)
+Kết luận
+Nghiệm pháp Cooms trực tiếp bằng pp Gelcard
+Nghiệm pháp Cooms gián tiếpbằng pp Gelcard
+Định nhóm máu ABO bằng pp Gelcard
+ABO
+Kháng thể kháng nhân ANA test
+Anti-dsDNA
+Điện di Huyết sắc tố (HgB )
+Hb H
+Hb Bart's
+Hb A
+Hb F
+Hb D-punjab
+Hb S
+Hb E
+Hb A2
+Hb C
+Hb Other
+Điện di Protein huyết thanh
+Glucose
+Định lượng 17OH (17-Hydroxyprogesterone)
+Ure
+HbA1C
+Creatinin
+SGPT/ALT
+SGOT/AST
+Gama GT
+Cholesterol  toàn phần
+Triglyceride 
+HDL-cholesterol
+LDL - cholesterol 
+ Axit Uric
+NH3 ( Amoniac ) máu
+Bilirubin trực tiếp
+Bilirubin gián tiếp
+Bilirubin toàn phần
+Điện giải đồ (Na+, K+, CL -)
+Na +
+K +
+Cl-
+Calci ion hoá
+Calci toàn phần
+Alkalin phosphatase
+Protein toàn phần
+Albumin
+amylase
+Lipase
+CK-NAC ( Creatinin kinase )
+Complement 3 (C3 )
+Complement 4 ( C4)
+Nồng độ rượu trong máu
+Globulin
+Định lượng IgE (Immunoglobuline E)
+Định lượng IgA (Immunoglobuline A)
+Định lượng IgG (Immunoglobuline G)
+Định lượng IgM (Immunoglobuline M)
+Khí máu động mạch
+pH
+pCO2
+pO2
+Hb
+Temp
+FIO2
+BP
+HCO3-act
+HCO3-std
+BE(ecf)
+BE(B)
+BB
+ctCO2(P)
+ctCO2(B)
+Hct
+sO2(est)
+Lactat 
+Cholinesterase
+Mg ++ huyết thanh
+Phospho
+RF (Rheumatoid Factor)
+Định lương Sắt huyết thanh
+Transferin
+LDH
+AFP
+CEA
+CA 125
+CA 19-9
+CA 15-3
+CA 72-4
+Cyfra 21-1
+PSA
+Free PSA
+SCC (Squamous Cell Carcinoma)
+Roma Test (HE4 + CA125)
+HE4
+CA 125
+Anti-CCP IgG
+Cortisol ( serum)
+Free T3
+Free T4
+TSH 3-UL
+Troponin I- Hs
+NT-Pro BNP
+Total hCG
+Digoxin
+ACTH
+anti Thyroglobulin (aTG)
+Anti- TPO
+C-Peptide
+Insulin
+LH 
+LH :Nam : 6-23 , Nữ : gđ tạo nang buồng trứng : 5-30
+LH :Nữ : gđ chu kỳ kinh 75-150 , gđ tạo hoàng thể 3-40 ,gđ mãn kinh 10.87-58.64
+Prolactin
+Procalcitonin
+Progesterone
+PTH ( Parathyroid Hormon )
+Testosterone
+Vitamin B12
+Estradiol :
+Estradiol 
+Ferritin
+FSH
+FSH Nam : 1.24 -7.8 , Nữ : gđ tạo hoàng thể : 0.61-16.3 , gđ mãn kinh : 14.2-5.3
+FSH :Nữ : gđ tạo nang : 1.68 -15 , gđ chu kỳ kinh : 21.9-56.6
+Định lượng nồng độ Vancomycin
+Active Renin
+Thyroglobulin (TG)
+TSH Receptor
+Aldosterone
+Ceruloplasmin
+Định lượng 25OH Vitamin D (D3) [Máu]
+CRP
+PAPP-A
+Free beta HCG
+Kết luận ( theo phần mềm Prisca 5 ) 
+Đánh giá nguy cơ :
+AFP (alpha feto protein )
+HCG
+UE3
+Kết luận ( theo phần mềm Prisca 5 ) 
+Đánh giá nguy cơ :
+Catecholamin máu
+Dopamin
+Adrenaline
+Noradrenaline
+ADH
+Anti Phospholipid IgG
+Độ lọc cầu thận GFR
+Nghiệm pháp dung nạp đường ( Glucose )
+M0 : Glucose lúc đói
+M2 : Glucose máu 2 giờ sau uống 75g glucose/200-300ml nước
+Nghiệm pháp dung nạp glucose cho bệnh nhân thai nghén
+
+Đường huyết lúc đói
+Đường huyết sau 1giờ uống 75g glucose
+Đường huyết sau  2 giờ uống 75g glucose
+ASLO
+Ceton máu
+ADA
+RIDA Allergy (Panel 1 VIET ĐL)
+Blomia tropicalis (Mạt nhà Bt)
+Cat (epithelia/ hair)/ Mèo
+Dog (epithelia/ hair)/ Chó
+Mouse (epithelia/ hair)/ Chuột
+Cockroach (Gián)
+Feather mix (Lông Vũ)
+Hay dust (Bụi cỏ)
+Mould mix 1 (Hỗn hợp nấm mốc)
+Shrimp (Tôm)
+Crab (Cua)
+Octopus (Bạch tuộc, mực)
+Mackerel (Cá thu)
+Sardine (Cá mòi)
+Tuna (Cá ngừ)
+Beef (Thịt bò)
+Chicken (Thịt gà)
+Egg yolk (Lòng đỏ trứng)
+Vegetables/Đậu nành, củ hành, nấm, cần tây
+Derm. pteronyssinus (Mạt nhà DP)
+Derm. farinae (Mạt nhà DF)
+Áp suất thẩm thấu máu (Plasma Osmolality ) :
+CK-MB
+RIDA Allergy (Panel 4 ĐL)
+Derm. pteronyssinus (Mạt nhà DP)
+Derm. farinae (Mạt nhà DF)
+Birch (Cây bạch dương)
+Grass mix (Hỗn hợp cỏ)
+Cat (Mèo)
+Dog (Chó)
+Alternaria alternata (1 loại nấm)
+Milk (Sữa)
+α-Lactalbumine (Protein sữa)
+β-Lactoglobuline (Protein sữa)
+Casein (Protein sữa)
+Egg white (Lòng trắng trứng)
+Egg yolk (Lòng đỏ trứng)
+Bovin serum albumin/Alb h.thanh bò
+Soya bean (Đậu nành)
+Carrot (Cà rốt)
+Potato (Khoai tây)
+Wheat flour (Bột mì)
+Hazelnut (Quả phỉ)
+Peanut (Đậu phộng)
+Nước tiểu 10 thông số (máy)
+Glucose
+Bilirubin
+
+Ketone
+
+Spe-Gravity
+
+Blood
+
+pH
+
+Protein
+Urobilinogen
+
+Nitrite
+
+Leucocyte
+
+Axit Uric  niệu
+HCG (nhanh)
+Calci niệu
+ Creatinin niệu
+Định lượng Đường niệu
+Micro Albumin
+Phospho niệu
+Thể tích (V24h ) :
+Protein niệu 24h
+Amylase niệu
+Điện giải ( Na, K, Cl) niệu
+Na +
+K +
+Cl-
+Catecholamin nước tiểu
+Dopamin/NT
+Adrenaline/NT
+Noradrenaline/NT
+XÉT NGHIỆM NƯỚC TIỂU
+Multi-Drugs/urine test
+THC (Tetra hydrocannabinol)
+AMP ( Amphetamin )
+MET (Methamphetamin)
+MOR (Morphin)
+XÉT NGHIỆM NƯỚC TIỂU
+STONE ANALYSE (KIDNEY, URETER,...)
+
+uAlb/Crea
+Áp suất thẩm thấu trong nước tiểu (Urine Osmolality)
+Glucose ( DNT )
+Protein ( DNT )
+Phản ứng Pandy :
+Clo dịch
+Soi mực tàu tìm nấm Cryptococcus neoformans
+Amylase
+Bilirubin toàn phần
+Cholesterol  toàn phần
+Creatinin
+Glucose ( DMP,MT, MB )
+LDH
+Protein dịch ( MP, MT, MB )
+Phản ứng Rivalta
+Triglyceride 
+Spe-Gravity
+
+Ure
+XÉT NGHIỆM SÀNG LỌC SẢN KHOA -NAM KHOA
+TINH DỊCH ĐỒ ( THEO TIÊU CHUẨN WHO 2010 ) :
+1-Thể tích : 
+2- Đại thể :
+3- Thời gian ly giải : 
+4- pH :
+5- Mật độ tinh trùng :
+6-Tổng số  tinh trùng :
+7- Di động :
+a ) PR - tiến tới :
+b) NP - không tiến tới
+c) PR + NP :
+d) IM -không di động :
+8- Tỉ lệ sống : 
+9- Hình dạng bình thường :
+10- Ghi nhận khác :
+Định lượng nồng độ thuốc Tacrolimus (FK506)
+Xét nghiệm kháng thể HLA-B27
+Anti- Phospholipid IgM
+AIH Screening (SMA IFT, LKM-1 IFT,F-actin IFT,AMA IFT)
+Anti GAD (Anti Glutamic Acid Decarboxylase)
+Anti ICA (Islet cell Autoantibody)
+Anti Cardiolipin IgM
+Metanephrine máu
+TSH
+Định lượng G6PD
+TSH
+Định lượng G6PD
+Cortisol ( serum)
+Định danh kháng thể kháng HLA bằng kỹ thuật Luminex (với sinh phẩm single antigen lớp I)
+Định type HLA độ phân giải cao cho 1 locus (A, hoặc B, hoặc C, hoặc DQ hoặc DP) bằng kỹ thuật PCR - SSO
+Đọ chéo trong ghép tạng với kỹ thuật phân lập tế bào
+Soi trực tiếp nhuộm soi -nhuộm Gram
+
+Nuôi cấy vi khuẩn
+Mẫu : 
+Đại thể : 
+Kết Quả :
+Cấy phân
+Tả
+Lỵ
+Thương hàn
+Kháng sinh đồ 
+
+Kết quả : 
+Tính chất : 
+soi+ nhuộm huyết trắng
+Trichomonas
+Candida
+Gonococci
+Clue cell
+Trực khuẩn Gram dương
+Trực khuẩn Gram Âm
+Cocci gram dương
+Cocci gram âm
+Bạch cầu
+Soi trực tiếp nhuộm soi - nhuộm xanh Methylen
+BK đàm
+
+Đại thể :
+Kết quả BK :
+Đại thể :
+Kết quả BK :
+PCR Lao
+Tuberculosis IgG (nhanh)
+BK đàm
+
+Đại thể :
+Kết quả BK :
+TPHA (Treponema Pallidum Hemagglutination Assay)
+Syphylis Elisa (giang mai)
+Leptospira-IgM
+S.Typhi H (d.H )
+S.Typhi O (9,12-O)
+S.Paratyphi AH (a-H)
+S.Paratyphi AO (1,2,12-O)
+S.Paratyphi BH (b-H)
+S.Paratyphi BO (1,4,5-O)
+S.Paratyphi CH (c-H)
+S.Paratyphi CO (6,7-O)
+H.pylori ( nhanh )
+HP Test IgM (Helicobacter pylori)
+Xét nghiệm định danh vi khuẩn Streptococcus agalactive (GBS) bằng kỹ thuật nuôi cấy và định danh bằng phương pháp thông thường
+HBsAg
+Anti-HBs
+Anti -HBc IgM
+Anti-HBc Total
+HBeAg miễn dịch tự động
+Anti-HBe miễn dịch tự động
+
+Anti HCV
+HAV IgM
+HBsAg test nhanh
+Anti-HCV test nhanh
+HAV IgM (nhanh)
+HEV IgM ( nhanh )
+HCV RNACobasTaqman (Roche Đ.tính +Đ.Lượng)
+HBV DNA Cobas Taqman(Roche Đ.tính +Đ.Lượng)
+PCR HCV - GENOTYPE
+Anti -HIV ( Elisa )
+HIV khẳng định (*)[khi XN HIV test nhanh có phản ứng]
+NS1Ag
+IgM
+IgG
+Herpes simplex virus 1,2 (HSV 1,2) IgM
+Herpes simplex virus 1,2 (HSV 1,2) IgG
+Epstein-Barr Virus (VCA) IgM
+Epstein-Barr Virus (VCA) IgG
+Chẩn đoán Rubella IgM bằng kỹ thuật  ELISA
+Chẩn đoán Rubella IgG bằng kỹ thuật  ELISA
+
+Cobas HPV DNA Roche
+Measles IgM (Sởi)
+Realtime RT-PCR SARS-COV-2
+Realtime RT-PCR SARS-COV-2
+Realtime RT-PCR SARS-COV-2
+Realtime RT-PCR SARS-COV-2
+Realtime RT-PCR SARS-COV-2
+Realtime RT-PCR SARS-COV-2
+Influenza A IgG
+Realtime RT-PCR SARS-COV-2
+Realtime RT-PCR SARS-COV-2
+Xét nghiệm nhanh kháng nguyên vi rút Sar-CoV-2 trong dịch phết mũi họng
+Xét nghiệm nhanh kháng nguyên vi rút Sar-CoV-2 trong dịch phết mũi họng
+Realtime RT-PCR SARS-COV-2
+Realtime RT-PCR SARS-COV-2
+Xét nghiệm nhanh kháng nguyên vi rút Sar-CoV-2 trong dịch phết mũi họng
+Realtime RT-PCR SARS-COV-2
+Soi trực tiếp tìm HC, BC trong phân
+Đại thể
+Hồng cầu
+Bạch cầu
+Máu ẩn trong phân
+Soi tìm Ký sinh trùng ( đường ruột , ngoài đường ruột )
+Đại thể
+Kết quả soi trực tiếp :
+Ascaris lumbricoides IgG
+Taenia (Cysticercose - IgG)
+Echinococcus IgG
+Sero Amibe
+Sero Fasciola sp IgG
+Paragonimus IgG
+Tìm Ký sinh trùng sốt rét  bằng test nhanh
+Schistosoma mansoni IgG
+Strongyloides-IgG(Giun lươn)
+Toxocara IgG
+Chẩn đoán Toxoplasma IgM bằng kỹ thuật ELISA
+Chẩn đoán Toxoplasma IgG bằng kỹ thuật ELISA
+Trichinella Spiralis IgG
+ Vi nấm soi tươi
+Mẫu :
+Đại thể :
+Kết quả soi:
+Cấy tìm nấm và kháng nấm đồ
+Xét nghiệm và chẩn đoán mô bệnh học bằng pp nhuộm Hemtoxylin Eosin (Mẫu lớn)
+Xét nghiệm và chẩn đoán mô bệnh học bằng pp nhuộm Hemtoxylin Eosin (Mẫu nhỏ)
+Chọc hút kim nhỏ mô mềm (FNA)
+Chọc hút kim nhỏ mô mềm (FNA)
+Chọc hút kim nhỏ mô mềm (FNA)
+Chọc hút kim nhỏ các hạch (FNA)
+Xét nghiệm phết tế bào cổ tử cung (Pap' smear)
+Xét nghiệm các loại dịch , nhuộm và chẩn đoán tế bào học (Cell block)
+Xét nghiệm pap công nghệ liqui-prep
+Đột Biến ALK (Anaplastic Lymphoma Kinase)
+Đột biến EGFR (Epidermal Growth Factor Receptor)
+Marker Hoá Mô Miễn Dịch
+Tên Marker :
+Kết luận :
+Chọc hút kim nhỏ các khối sưng, khối u dưới da (FNA)
+Chọc hút kim nhỏ tuyến giáp(FNA)
+XN PD-L1
+HIV đo tải lượng hệ thống tự động
+Định lượng M2BPGi
+RPR định lượng (Roche)
+Gene Xpert MTB/RIF [chương trình FIT]
+Anti Sm
