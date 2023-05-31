@@ -136,6 +136,65 @@ class MainWindow(QMainWindow):
 
         response = requests.get('http://192.168.15.60/api/v1/dontiep/detailHsbaByBenhNhanId/{}'.format(benh_nhan_id), headers=headers, verify=False)
         return response.json()
+    
+    # Hàm lấy viện phí ID cho ca không search được
+    def get_vien_phi_id(self,token,benh_nhan_id):
+        headers = {
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': 'vi,fr-FR;q=0.9,fr;q=0.8,en-US;q=0.7,en;q=0.6',
+            'Authorization':'Bearer {}'.format(token),
+            'Connection': 'keep-alive',
+            'Origin': 'http://192.168.15.50',
+            'Referer': 'http://192.168.15.50/',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36',
+            'X-RED-HID': '2',
+        }
+        response = requests.get(f'http://192.168.15.60/api/v1/hsba/getListNgayTaoHsbaByBenhNhanId/{benh_nhan_id}', headers=headers, verify=False) 
+        vien_phi_id = response.json()[0]['vien_phi_id']   
+        return vien_phi_id
+
+    # Hàm lấy id (mã hồ sơ bệnh án)
+    def get_ma_hsba_id(self,token,vien_phi_id,benh_nhan_id):
+        headers = {
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': 'vi,fr-FR;q=0.9,fr;q=0.8,en-US;q=0.7,en;q=0.6',
+            'Authorization':'Bearer {}'.format(token),
+            'Connection': 'keep-alive',
+            'Origin': 'http://192.168.15.50',
+            'Referer': 'http://192.168.15.50/',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36',
+            'X-RED-HID': '2',
+        }        
+        params = (
+            ('vien_phi_id', f'{vien_phi_id}'),
+            ('benh_nhan_id', f'{benh_nhan_id}'),
+        )
+
+        response = requests.get('http://192.168.15.60/api/v1/hsba/getListHsbaByNgayTaoAndBenhNhanId', headers=headers, params=params, verify=False)
+        id = response.json()['data'][0]['id']
+        return id
+    
+    # Hàm lấy info với những bệnh nhân không search được
+    def get_info_patient(self,token,id):
+        headers = {
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': 'vi,fr-FR;q=0.9,fr;q=0.8,en-US;q=0.7,en;q=0.6',
+            'Authorization':'Bearer {}'.format(token),
+            'Connection': 'keep-alive',
+            'Origin': 'http://192.168.15.50',
+            'Referer': 'http://192.168.15.50/',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36',
+            'X-RED-HID': '2',
+        }
+        params = (
+            ('id', f'{id}'),
+            ('phongId', '828'),
+            ('benhVienId', '2'),
+            ('type', 'NOI_TRU'),
+        )
+        response = requests.get('http://192.168.15.60/api/v1/dontiep/getHsbaByHsbaId', headers=headers, params=params, verify=False)
+        return(response.json())
+
 
     # Hàm click vào button search để tìm bệnh nhân
     def Button_search(self):
@@ -143,7 +202,13 @@ class MainWindow(QMainWindow):
     async def main(self):
         token = self.token_add()
         benh_nhan_id = self.ui.lineEdit_search.text()
-        data_info = self.info_patient(token,benh_nhan_id)
+        try:
+            data_info = self.info_patient(token,benh_nhan_id)
+        except:
+            vien_phi_id = self.get_vien_phi_id(token,benh_nhan_id)
+            id = self.get_ma_hsba_id(token,vien_phi_id,benh_nhan_id)
+            data_info = self.get_info_patient(token,id)
+
         self.ui.label_nam_patient.setText(data_info['ten_benh_nhan'])
         self.ui.label_maBN.setText(str(data_info['benh_nhan_id']))
         self.ui.label_namsinh.setText(str(data_info['nam_sinh']))
@@ -180,7 +245,10 @@ class MainWindow(QMainWindow):
         khoa_phong = data_info['ten_khoa']
         self.ui.label_phonghientai.setText(khoa_phong)
         # Xử lý ngày vào viện
-        self.ui.label_ngay_vao_vien.setText(data_info['ngay_vao_vien'])
+        try:
+            self.ui.label_ngay_vao_vien.setText(data_info['ngay_vao_vien'])
+        except:
+            pass
 
         # Lấy danh sách tên các xét nghiệm
         data_phieu_y_lenh = self.history_xet_nghiem(token,benh_nhan_id)
@@ -215,7 +283,15 @@ class MainWindow(QMainWindow):
             thoi_gian_chi_dinh = data_xn[0]['thoi_gian_chi_dinh']
             for i in range(len(data_xn)):
                 code = True
-                ten = data_xn[i]['ten']
+                ma = data_xn[i]['ma']
+                if ma == 'U249-3046':
+                    ten = data_xn[i]['ten']+'(niệu)' # glucose niệu
+                elif ma == 'U254-3444':
+                    ten = data_xn[i]['ten']+'(niệu)' # pH niệu
+                elif ma == 'U5065-3204': # Hb (khí máu)
+                    ten = data_xn[i]['ten']+'(khí máu)'
+                else:
+                    ten = data_xn[i]['ten']
                 ket_qua = data_xn[i]['ket_qua']
                 for char in 'ket_qua':
                     code = True

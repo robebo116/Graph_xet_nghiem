@@ -21,7 +21,7 @@ PLT
 MPV
 PCT
 PDW
-Glucose
+Glucose(niệu)
 Na +
 K +
 Cl-
@@ -1270,7 +1270,7 @@ WBC
 # Eos
 # Baso
 RBC
-Hb
+Hb(khí máu)
 Hct
 MCV
 MCH
@@ -1285,7 +1285,7 @@ Bilirubin
 Ketone
 Spe-Gravity
 Blood
-pH
+pH(niệu)
 Protein
 Urobilinogen
 Nitrite
