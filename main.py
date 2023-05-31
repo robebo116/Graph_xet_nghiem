@@ -141,8 +141,6 @@ class MainWindow(QMainWindow):
     def Button_search(self):
         asyncio.run(self.main())
     async def main(self):
-        with open(data_dir/'data_xet_nghiem.csv','w') as file:
-            file.write('')
         token = self.token_add()
         benh_nhan_id = self.ui.lineEdit_search.text()
         data_info = self.info_patient(token,benh_nhan_id)
@@ -188,10 +186,14 @@ class MainWindow(QMainWindow):
         data_phieu_y_lenh = self.history_xet_nghiem(token,benh_nhan_id)
         ##################################################################################
         urls = []
+        lst_thoi_gian_chi_dinh = []
         for i in range(len(data_phieu_y_lenh)):
             phieu_y_lenh = data_phieu_y_lenh[i]['phieu_y_lenh_id']
+            thoi_gian_chi_dinh = data_phieu_y_lenh[i]['thoi_gian_chi_dinh']
             url = 'http://192.168.15.60/api/v1/phongkham/getDetailPhieuYLenh/{}/2'.format(phieu_y_lenh)
-            urls.append(url)
+            if thoi_gian_chi_dinh not in lst_thoi_gian_chi_dinh:
+                lst_thoi_gian_chi_dinh.append(thoi_gian_chi_dinh)
+                urls.append(url)
         headers = {
             'Accept': 'application/json, text/plain, */*',
             'Accept-Language': 'vi,fr-FR;q=0.9,fr;q=0.8,en-US;q=0.7,en;q=0.6',
@@ -202,62 +204,29 @@ class MainWindow(QMainWindow):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36',
             'X-RED-HID': '2',
         }
-
-        # connector = aiohttp.TCPConnector(ssl=False)  # Tắt xác minh chứng chỉ SSL
         async with aiohttp.ClientSession(headers=headers) as session:
             tasks = []
             for url in urls:
                 task = asyncio.create_task(self.fetch_data(session, url))
                 tasks.append(task)
             results = await asyncio.gather(*tasks)
-            for data_xn in results:
-                thoi_gian_chi_dinh = data_xn[0]['thoi_gian_chi_dinh']
-                for i in range(len(data_xn)):
+        self.data_xet_nghiem_all = []
+        for data_xn in results:
+            thoi_gian_chi_dinh = data_xn[0]['thoi_gian_chi_dinh']
+            for i in range(len(data_xn)):
+                code = True
+                ten = data_xn[i]['ten']
+                ket_qua = data_xn[i]['ket_qua']
+                for char in 'ket_qua':
                     code = True
-                    ten = data_xn[i]['ten']
-                    ket_qua = data_xn[i]['ket_qua']
-                    for char in 'ket_qua':
-                        code = True
-                        if char not in ket_qua:
-                            data_xet_nghiem = [ten,ket_qua,thoi_gian_chi_dinh]
-                            # self.data.append(data_xet_nghiem)
-                            with open(data_dir/'data_xet_nghiem.csv','a',encoding='utf-8',newline='') as file:
-                                writer = csv.writer(file)
-                                writer.writerow(data_xet_nghiem)
-                            code = False
-                            if code == False:
-                                break
+                    if char not in ket_qua:
+                        data_xet_nghiem = [ten,ket_qua,thoi_gian_chi_dinh]
+                        self.data_xet_nghiem_all.append(data_xet_nghiem)
+                        code = False
+                        if code == False:
+                            break
 
-        data_ten = []
-        self.lst_xn_all = []
 
-        with open('data_xet_nghiem.csv','r',encoding='utf-8') as file:
-            reader = csv.reader(file)
-            for row in reader:
-                if row[0] not in data_ten:
-                    data_ten.append(row[0])
-        for ten in data_ten:
-            lst_xn = []
-            lst_ket_qua = []
-            lst_thoi_gian_chi_dinh = []
-            with open('data_xet_nghiem.csv','r',encoding='utf-8') as file:
-                reader = csv.reader(file)
-                for row in reader:
-                    if row[0] == ten:
-                        try: 
-                            lst_ket_qua.append(float(row[1]))
-                        except:
-                            try:
-                                lst_ket_qua.append(int(row[1]))
-                            except:
-                                lst_ket_qua.append((row[1]))
-                        date_xn = row[2].split(' ')[0]
-                        lst_thoi_gian_chi_dinh.append(date_xn) 
-
-            lst_xn.append(ten)
-            lst_xn.append(lst_ket_qua)
-            lst_xn.append(lst_thoi_gian_chi_dinh)
-            self.lst_xn_all.append(lst_xn)
 
 
         ##################################################################################
@@ -267,14 +236,35 @@ class MainWindow(QMainWindow):
     # Hàm click vào button search xét nghiệm
     def Button_search2(self):
 
+        data_ten = []
+        self.lst_xn_all = []
 
+        for row in self.data_xet_nghiem_all:
+            if row[0] not in data_ten:
+                data_ten.append(row[0])
+        for ten in data_ten:
+            lst_xn = []
+            lst_ket_qua = []
+            lst_thoi_gian_chi_dinh = []
+            for row in self.data_xet_nghiem_all:
+                if row[0] == ten:
+                    try: 
+                        lst_ket_qua.append(float(row[1]))
+                    except:
+                        try:
+                            lst_ket_qua.append(int(row[1]))
+                        except:
+                            lst_ket_qua.append((row[1]))
+                    date_xn = row[2].split(' ')[0]
+                    lst_thoi_gian_chi_dinh.append(date_xn) 
+
+            lst_xn.append(ten)
+            lst_xn.append(lst_ket_qua)
+            lst_xn.append(lst_thoi_gian_chi_dinh)
+            self.lst_xn_all.append(lst_xn)
 
         for i in range(len(self.lst_xn_all)):
             if self.lst_xn_all[i][0] == self.ui.lineEdit_search_2.text(): 
-                with open(data_dir/'data_graph_xn.txt','w',encoding='utf-8') as file:
-                    file.write(str(self.lst_xn_all[i]))
-
-
                 ten = self.lst_xn_all[i][0]
                 ket_qua = self.lst_xn_all[i][1]
                 ket_qua_reversed = list(reversed(ket_qua))
