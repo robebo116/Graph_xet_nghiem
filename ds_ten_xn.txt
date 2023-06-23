@@ -1974,7 +1974,7 @@ Cholesterol  toàn phần
 Triglyceride 
 HDL-cholesterol
 LDL - cholesterol 
- Axit Uric
+Axit Uric
 NH3 ( Amoniac ) máu
 Bilirubin trực tiếp
 Bilirubin gián tiếp
