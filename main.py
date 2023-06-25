@@ -2,6 +2,7 @@ import sys
 import requests
 import asyncio
 import aiohttp
+from datetime import datetime
 from pathlib import Path
 from ui_main import Ui_MainWindow
 from PySide6.QtWidgets import QMainWindow,QApplication,QCompleter,QMessageBox
@@ -351,6 +352,12 @@ class MainWindow(QMainWindow):
                         except:
                             lst_ket_qua.append((row[1]))
                     date_xn = row[2]
+
+                    # Chuyển đổi chuỗi thành đối tượng datetime
+                    dt = datetime.strptime(date_xn, "%Y-%m-%d %H:%M:%S")
+                    # Định dạng lại chuỗi thời gian
+                    date_xn = dt.strftime("%d-%m-%Y %H:%M")
+         
                     lst_thoi_gian_chi_dinh.append(date_xn) 
 
             lst_xn.append(ten)
@@ -364,6 +371,7 @@ class MainWindow(QMainWindow):
                 ket_qua = self.lst_xn_all[i][1]
                 ket_qua_reversed = list(reversed(ket_qua))
                 thoi_gian_chi_dinh = self.lst_xn_all[i][2]
+              
 
                 thoi_gian_reversed = list(reversed(thoi_gian_chi_dinh))
 
