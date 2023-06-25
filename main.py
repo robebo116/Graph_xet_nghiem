@@ -3,13 +3,14 @@ import requests
 import csv
 import asyncio
 import aiohttp
-from matplotlib import pyplot
+# from matplotlib import pyplot
 from pathlib import Path
 from ui_main import Ui_MainWindow
 from PySide6.QtWidgets import QMainWindow,QApplication,QCompleter
 from PySide6.QtCore import Qt,QSortFilterProxyModel,QStringListModel,QRegularExpression
 from PySide6.QtGui import QFont
 import matplotlib
+import matplotlib.pyplot as plt
 matplotlib.use('TkAgg')
 
 data_dir = Path()
@@ -255,13 +256,16 @@ class MainWindow(QMainWindow):
         ##################################################################################
         urls = []
         lst_thoi_gian_chi_dinh = []
+        lst_phieu_y_lenh = []
         for i in range(len(data_phieu_y_lenh)):
             phieu_y_lenh = data_phieu_y_lenh[i]['phieu_y_lenh_id']
             thoi_gian_chi_dinh = data_phieu_y_lenh[i]['thoi_gian_chi_dinh']
             url = 'http://192.168.15.60/api/v1/phongkham/getDetailPhieuYLenh/{}/2'.format(phieu_y_lenh)
             if thoi_gian_chi_dinh not in lst_thoi_gian_chi_dinh:
                 lst_thoi_gian_chi_dinh.append(thoi_gian_chi_dinh)
+            if phieu_y_lenh not in lst_phieu_y_lenh:
                 urls.append(url)
+                lst_phieu_y_lenh.append(phieu_y_lenh)
         headers = {
             'Accept': 'application/json, text/plain, */*',
             'Accept-Language': 'vi,fr-FR;q=0.9,fr;q=0.8,en-US;q=0.7,en;q=0.6',
@@ -301,6 +305,7 @@ class MainWindow(QMainWindow):
                         code = False
                         if code == False:
                             break
+  
 
 
 
@@ -331,7 +336,7 @@ class MainWindow(QMainWindow):
                             lst_ket_qua.append(int(row[1]))
                         except:
                             lst_ket_qua.append((row[1]))
-                    date_xn = row[2].split(' ')[0]
+                    date_xn = row[2]
                     lst_thoi_gian_chi_dinh.append(date_xn) 
 
             lst_xn.append(ten)
@@ -347,14 +352,16 @@ class MainWindow(QMainWindow):
                 thoi_gian_chi_dinh = self.lst_xn_all[i][2]
 
                 thoi_gian_reversed = list(reversed(thoi_gian_chi_dinh))
-                pyplot.plot(thoi_gian_reversed,ket_qua_reversed,marker = '.',markersize =10)
-                pyplot.ylabel(ten)
-                pyplot.xlabel('Thời gian xét nghiệm')
-                pyplot.legend([ten])
+
+           
+                plt.plot(thoi_gian_reversed,ket_qua_reversed,marker = '.',markersize =10)
+                plt.ylabel(ten)
+                plt.xlabel('Thời gian xét nghiệm')
+                plt.legend([ten])
                 for i in range(len(thoi_gian_reversed)):
-                    pyplot.annotate(f'({thoi_gian_reversed[i]}, {ket_qua_reversed[i]})', (thoi_gian_reversed[i], ket_qua_reversed[i]), textcoords="offset points", xytext=(0,10),ha = 'center')
-                pyplot.tight_layout()
-                pyplot.show()
+                    plt.annotate(f'({ket_qua_reversed[i]})', (thoi_gian_reversed[i], ket_qua_reversed[i]), textcoords="offset points", xytext=(0,10),ha = 'center')
+                plt.tight_layout()
+                plt.show()
 
     # Hàm async http
     async def fetch_data(self,session,url):
