@@ -1,21 +1,16 @@
 import sys
 import requests
-import csv
 import asyncio
 import aiohttp
-# from matplotlib import pyplot
 from pathlib import Path
 from ui_main import Ui_MainWindow
-from PySide6.QtWidgets import QMainWindow,QApplication,QCompleter
+from PySide6.QtWidgets import QMainWindow,QApplication,QCompleter,QMessageBox
 from PySide6.QtCore import Qt,QSortFilterProxyModel,QStringListModel,QRegularExpression
 from PySide6.QtGui import QFont
 import matplotlib
+matplotlib.use('QtAgg')
 import matplotlib.pyplot as plt
-matplotlib.use('TkAgg')
-
 data_dir = Path()
-
-
 
 # Lấy danh sách tên xét nghiệm
 lst_ten_xet_nghiem = []
@@ -35,6 +30,7 @@ class MainWindow(QMainWindow):
         QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+        self.msg_box = QMessageBox()
 
         # Nhấn vào để search bệnh nhân
         self.ui.pushButton_search.clicked.connect(lambda: self.Button_search())
@@ -210,9 +206,16 @@ class MainWindow(QMainWindow):
             id = self.get_ma_hsba_id(token,vien_phi_id,benh_nhan_id)
             data_info = self.get_info_patient(token,id)
 
+        try: # trường hợp lỗi ra 2 mã cùng lúc
+            ten_benh_nhan = data_info['ten_benh_nhan']
+        except:
+            data_info = data_info[0]
+            ten_benh_nhan = data_info['ten_benh_nhan']
+
         self.ui.label_nam_patient.setText(data_info['ten_benh_nhan'])
         self.ui.label_maBN.setText(str(data_info['benh_nhan_id']))
         self.ui.label_namsinh.setText(str(data_info['nam_sinh']))
+        
         # xử lý giới tính
         if data_info['gioi_tinh'] == 1:
             self.ui.label_sex.setText('Nam')
@@ -299,14 +302,25 @@ class MainWindow(QMainWindow):
                 ket_qua = data_xn[i]['ket_qua']
                 for char in 'ket_qua':
                     code = True
-                    if char not in ket_qua:
-                        data_xet_nghiem = [ten,ket_qua,thoi_gian_chi_dinh]
-                        self.data_xet_nghiem_all.append(data_xet_nghiem)
-                        code = False
-                        if code == False:
-                            break
-  
-
+                    if ket_qua is not None:
+                        if char not in ket_qua:
+                            data_xet_nghiem = [ten,ket_qua,thoi_gian_chi_dinh]
+                            self.data_xet_nghiem_all.append(data_xet_nghiem)
+                            code = False
+                            if code == False:
+                                break
+                    else:
+                        pass
+        # Thông báo đã tìm thấy tên bệnh nhân
+        ######## Messengerbox ###########
+        #################################
+        self.msg_box.setWindowTitle('Thông báo')
+        self.msg_box.setIcon(QMessageBox.Icon.Information)
+        self.msg_box.setStandardButtons(QMessageBox.StandardButton.Ok)
+        self.msg_box.setText(f'Đã tìm thấy bệnh nhân:\n{ten_benh_nhan}')
+        rp = self.msg_box.exec()
+        #######################################
+        #######################################
 
 
 
